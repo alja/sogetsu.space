@@ -95,7 +95,7 @@ analytics:
 author:
   name             : 
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** Sogetsu Branch. Here should be more bio ..."
+  bio              : "I am an **amazing** Sogetsu Branch. Here can be more bio."
   email            : "SogetsuSD@gmail.com"
   links:
     - label: "Email"
