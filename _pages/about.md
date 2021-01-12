@@ -1,6 +1,5 @@
 ---
 permalink: /about/
-title: "About"
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
     image_path: /assets/images/mm-layout-splash.png
@@ -9,17 +8,16 @@ last_modified_at: 2020-10-28T14:51:23-04:00
 layout: posts
 author_profile: true
 ---
+## Sogetsu School of Ikebana
+Sogetsu School was founded by Sofu Teshigahara in 1927. While many believed practicing Ikebana meant following the established form, he believed Ikebana is creative art that can take many forms and expressions. Anyone can enjoy Sogetsu Ikebana anytime, anywhere, using any material. Sogetsu Ikebana aim to be present, to be alive and to be flexible. Many beautiful flowers and plants are the products of Mother Nature but Ikebana is the product of man’s creativity and imagination in the arrangement.
+Sogetsu Ikebana can be arranged in any room of one’s home, in public spaces such as hotel lobbies, banquet rooms, department stores or out of door locations. Suitable for both Japanese and Western environments, it is one of the most contemporary ikebana schools of design. 
 
-### WHO WE ARE
+Akane Teshigahara is the current and Fourth Iemoto (or headmaster), grand-daughter of Sofu Teshigahara, niece of Kasumi Teshigahara (2nd Iemoto) and daughter of Hiroshi Teshigahara (3rd Iemoto).
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent tristique magna sit amet purus. Eget sit amet tellus cras adipiscing. Justo nec ultrices dui sapien eget mi proin sed. Gravida cum sociis natoque penatibus et. Orci a scelerisque purus semper eget duis at tellus. Eu non diam phasellus vestibulum. Felis eget velit aliquet sagittis id. Consequat semper viverra nam libero. Enim ut tellus elementum sagittis vitae et leo duis ut. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Sagittis purus sit amet volutpat consequat mauris. Volutpat commodo sed egestas egestas. Porttitor leo a diam sollicitudin. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. Non arcu risus quis varius quam quisque id diam. Enim diam vulputate ut pharetra sit amet aliquam id diam. Nunc sed blandit libero volutpat sed cras.
-
-Test link [Tokyo HQ](https://www.sogetsu.or.jp/e/)
-### HISTORY ?
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+More info [IKEBANA SOGETSU](https://www.sogetsu.or.jp/e/)
 
 
-
-
+## Sogetsu San Diego branch
+The Sogetsu San Diego Branch had it’s actual beginning when Mrs. Sumiko Lahey started her class in 1969 and held her first flower arrangement exhibition in 1978. In 1985 she was authorized by headquarters to form a Study Group and celebrated the occasion with an exhibition. 
+In 1990, the Sogetsu San Diego Branch was established and Mrs. Lahey was appointed as its First Founding Director. In 1996, Mrs. Barbara E. Church succeeded Mrs. Lahey as Director and in the year 2000, Mr. Ronald Searfoss succeeded Mrs. Church. The current Director, Mrs. Hiroko Szechinski, was elected in 2001 and celebrated with an exhibition at that time. She served for 19 years. 
+In 2019, Yumi Rakers has elected as a director. During Pandemic, she has been conducing both Board and General meeting by Zoom
