@@ -94,8 +94,9 @@ analytics:
 # Site Author
 author:
   name             : 
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** Sogetsu Branch. Here can be more bio."
+  avatar           : "/assets/images/ava.jpg"
+  bio              : "This is Sogetsu Branch web portal in city of San Diego. Maintaining frienship through flowers."
+  location         : "San Diego, CA"
   email            : "SogetsuSD@gmail.com"
   links:
     - label: "Email"
