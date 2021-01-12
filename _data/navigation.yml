@@ -8,5 +8,6 @@ main:
     url: /year-archive/
   - title: "Contact"
     url: /sitemap/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Related"
+    url: /collection-archive/
+
