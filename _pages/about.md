@@ -1,11 +1,6 @@
 ---
 permalink: /about/
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-last_modified_at: 2020-10-28T14:51:23-04:00
-layout: posts
+layout: archive
 author_profile: true
 ---
 ## Sogetsu School of Ikebana
@@ -18,6 +13,5 @@ More info [IKEBANA SOGETSU](https://www.sogetsu.or.jp/e/)
 
 
 ## Sogetsu San Diego branch
-The Sogetsu San Diego Branch had it’s actual beginning when Mrs. Sumiko Lahey started her class in 1969 and held her first flower arrangement exhibition in 1978. In 1985 she was authorized by headquarters to form a Study Group and celebrated the occasion with an exhibition. 
-In 1990, the Sogetsu San Diego Branch was established and Mrs. Lahey was appointed as its First Founding Director. In 1996, Mrs. Barbara E. Church succeeded Mrs. Lahey as Director and in the year 2000, Mr. Ronald Searfoss succeeded Mrs. Church. The current Director, Mrs. Hiroko Szechinski, was elected in 2001 and celebrated with an exhibition at that time. She served for 19 years. 
-In 2019, Yumi Rakers has elected as a director. During Pandemic, she has been conducing both Board and General meeting by Zoom
+
+Mrs. Sumiko Lahey started her class in 1969, in 1985 she was authorized by headquarters to form a Study Group. In 1990, the Sogetsu San Diego Branch was established and Mrs. Lahey was appointed as its First Founding Director. In 1996, Mrs. Barbara E. Church succeeded Mrs. Lahey as Director and in 2000, Mr. Ronald Searfoss succeeded Mrs. Church. Mrs.Hiroko Szechinski, was elected in 2001 and served for 19 years. In 2020, Yumi Rakers has elected as a director. During Pandemic, she has been conducing both Board and General meeting by Zoom.
