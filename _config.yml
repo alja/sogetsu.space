@@ -95,7 +95,7 @@ analytics:
 author:
   name             : 
   avatar           : "/assets/images/ava.jpg"
-  bio              : "This is Sogetsu Branch web portal in city of San Diego. Maintaining frienship through flowers."
+  bio              : "This is Sogetsu Branch web portal in the city of San Diego. Maintaining friendship through flowers."
   location         : "San Diego, CA"
   email            : "SogetsuSD@gmail.com"
   links:
@@ -107,7 +107,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/San-Diego-Sogetsu-Ikebana-101397928462814/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"

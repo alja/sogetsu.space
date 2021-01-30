@@ -1,10 +1,8 @@
 ---
 layout: archive
-title: "Contact"
+title: "Teachers & Study groups"
 permalink: /sitemap/
 author_profile: true
 ---
 
-Let me know if this Page make sense ...
-
-Is this a place to list teachers?
+Under construction ...

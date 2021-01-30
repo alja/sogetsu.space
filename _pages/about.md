@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 layout: archive
+date: 2021-01-13
 author_profile: true
 ---
 ## Sogetsu School of Ikebana
@@ -15,3 +16,12 @@ More info [IKEBANA SOGETSU](https://www.sogetsu.or.jp/e/)
 ## Sogetsu San Diego branch
 
 Mrs. Sumiko Lahey started her class in 1969, in 1985 she was authorized by headquarters to form a Study Group. In 1990, the Sogetsu San Diego Branch was established and Mrs. Lahey was appointed as its First Founding Director. In 1996, Mrs. Barbara E. Church succeeded Mrs. Lahey as Director and in 2000, Mr. Ronald Searfoss succeeded Mrs. Church. Mrs.Hiroko Szechinski, was elected in 2001 and served for 19 years. In 2020, Yumi Rakers has elected as a director. During Pandemic, she has been conducing both Board and General meeting by Zoom.
+
+#### Board Members
+
+* Director: Yumi Rakers
+* Deputy Director: Cecilia Carrick
+* Advisor: Hiroko Szechinski
+* Secretary: Judi Bowes
+* Treasure: Alja Mrak Tadel
+

@@ -6,8 +6,8 @@ main:
     url: /about/
   - title: "Events"
     url: /year-archive/
-  - title: "Contact"
+  - title: "Groups"
     url: /sitemap/
-  - title: "Related"
-    url: /collection-archive/
+#  - title: "Related"
+#    url: /collection-archive/
 
