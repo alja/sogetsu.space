@@ -1,7 +1,20 @@
 ---
 title: "February Workshop"
-date: 2021-01-28
+date: 2021-02-15
+gallery:
+  - url: /assets/images/hirokoFebSec.jpg
+    image_path: /assets/images/hirokoFebSec.jpg
+    alt: "placeimage 1"
+  - url: /assets/images/hirokoFeb.jpg
+    image_path: /assets/images/hirokoFeb.jpg
+    alt: "placeimage 2"
 ---
+
+{% include gallery caption="Workshop, demo design." %}
+
+### Gallery in response to online demostration
+
+[Full photo album](https://photos.app.goo.gl/fx1DFfgkX3n9Riwf8)
 
 **Materials**: Dried or fresh Kiwi branches, flowers, and optionally some leaves for fillers
 

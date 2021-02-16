@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : 
-  avatar           : "/assets/images/ava.jpg"
-  bio              : "This is Sogetsu Branch web portal in the city of San Diego. Maintaining friendship through flowers."
+  avatar           : "/assets/images/sogetsu_logo.gif"
+  bio              : "A community of Sogetsu ikebana teachers and students in the city of San Diego"
   location         : "San Diego, CA"
   email            : "SogetsuSD@gmail.com"
   links:
@@ -199,12 +199,6 @@ kramdown:
 
 # Collections
 collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -212,6 +206,15 @@ collections:
 
 # Defaults
 defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+      sidebar: true
+    values:
+      layout: single
+      author_profile: false
+      share: true
   # _posts
   - scope:
       path: ""
@@ -219,9 +222,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -229,6 +232,7 @@ defaults:
       type: pages
     values:
       layout: single
+      read_time: false
       author_profile: true
   # _pets
   - scope:

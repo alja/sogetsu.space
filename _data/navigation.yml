@@ -6,8 +6,8 @@ main:
     url: /about/
   - title: "Events"
     url: /year-archive/
-#  - title: "Groups"
-#    url: /sitemap/
   - title: "Teachers"
-    url: /portfolio/
+    url: /sitemap/
+#  - title: "Portfolio"
+#    url: /portfolio/
 
