@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: Teachers
-permalink: /sitemap/
+permalink: /teachers/
 author_profile: false
 ---
 
