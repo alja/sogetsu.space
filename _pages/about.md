@@ -1,8 +1,8 @@
 ---
 permalink: /about/
-layout: archive
+layout: splash
 date: 2021-01-13
-author_profile: true
+author_profile: false
 ---
 ## Sogetsu School of Ikebana
 Sogetsu School was founded by Sofu Teshigahara in 1927. While many believed practicing Ikebana meant following the established form, he believed Ikebana is creative art that can take many forms and expressions. Anyone can enjoy Sogetsu Ikebana anytime, anywhere, using any material. Sogetsu Ikebana aim to be present, to be alive and to be flexible. Many beautiful flowers and plants are the products of Mother Nature but Ikebana is the product of man’s creativity and imagination in the arrangement.
@@ -10,7 +10,7 @@ Sogetsu Ikebana can be arranged in any room of one’s home, in public spaces su
 
 Akane Teshigahara is the current and Fourth Iemoto (or headmaster), grand-daughter of Sofu Teshigahara, niece of Kasumi Teshigahara (2nd Iemoto) and daughter of Hiroshi Teshigahara (3rd Iemoto).
 
-More info [IKEBANA SOGETSU](https://www.sogetsu.or.jp/e/)
+See more info at [Japanese Headquarters](https://www.sogetsu.or.jp/e/)
 
 
 ## Sogetsu San Diego branch

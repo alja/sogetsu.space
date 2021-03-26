@@ -10,11 +10,14 @@ gallery:
     alt: "placeimage 2"
 ---
 
-{% include gallery caption="Workshop, demo design." %}
+{% include gallery caption="Two versions of free style arrangement using kiwi branches. One containing dense area, the second using table space freely." %}
 
 ### Gallery in response to online demostration
 
-[Full photo album](https://photos.app.goo.gl/fx1DFfgkX3n9Riwf8)
+[Participant album](https://photos.app.goo.gl/fx1DFfgkX3n9Riwf8)&#x1F33B;&#x1F33B;&#x1F33B;
+<!--
+&#x1F333;  &#x1F33F; &#x1F339;  &#x1F33B;&#x1F33C; &#x1F343;
+-->
 
 **Materials**: Dried or fresh Kiwi branches, flowers, and optionally some leaves for fillers
 
