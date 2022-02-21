@@ -1,5 +1,5 @@
 ---
-title: "February Workshop"
+title: "Basic and free style with Kiwi Vines 2021-02-15"
 date: 2021-02-15
 gallery:
   - url: /assets/images/hirokoFeb.jpg

@@ -1,5 +1,5 @@
 ---
-title: "April 2022 Workshop"
+title: "Changing Original Appearance 2022-04-21"
 date: 2022-02-21
 ---
 The next Sogetsu workshop is scheduled for April 21st in Room 101. We hope we will be able to meet in person at that time. 
