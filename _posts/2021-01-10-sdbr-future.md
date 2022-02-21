@@ -2,9 +2,6 @@
 title: "February Workshop"
 date: 2021-02-15
 gallery:
-  - url: /assets/images/hirokoFebSec.jpg
-    image_path: /assets/images/hirokoFebSec.jpg
-    alt: "placeimage 1"
   - url: /assets/images/hirokoFeb.jpg
     image_path: /assets/images/hirokoFeb.jpg
     alt: "placeimage 2"
