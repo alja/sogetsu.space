@@ -5,7 +5,6 @@ permalink: /teachers/
 author_profile: true
 ---
 Page under construction.
-Please wait ...
 
 <!--
 ## Hiroko Szechinski

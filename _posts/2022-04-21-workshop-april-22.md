@@ -1,14 +1,17 @@
 ---
-title: "Changing Original Appearance 2022-04-21"
-date: 2022-02-21
+title: "Unconventional material with no flower 2022-04-21"
+date: 2022-04-28
 ---
-The next Sogetsu workshop is scheduled for April 21st in Room 101. We hope we will be able to meet in person at that time. 
+The first in person workshop since the beginning of pandemic in Balboa park, Casa Del Prado, Room 101.
+
 ## Theme:
 Change the original appearance of leaves, branches and/or unconventional materials.
 
  * No flowers.
  
- * You can also check our textbook 4-9 "disassembling and rearranging the materials" 
- 
  * Containers are OK to use. 
 
+ * Unconvetional material.
+
+## Arrangements
+[Google Photo Album](https://photos.app.goo.gl/BT6Dd8q1fmTcEThbA)
