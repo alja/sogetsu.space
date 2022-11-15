@@ -1,3 +1,3 @@
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
-This are sources for site https://sogetsu.space
+bundle exec jekyll serve --trace --port 1094 --host hname  --ssl-cert cert.pem --ssl-key privkey.pem --future
