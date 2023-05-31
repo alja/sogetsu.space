@@ -4,7 +4,10 @@ title: Teachers
 permalink: /teachers/
 author_profile: true
 ---
-Page under construction.
+Page under construction.<br>
+
+Please see <a href="https://www.ikebanasandiego.org/">IkebanaInternational San Diego</a> for more information. 
+
 
 <!--
 ## Hiroko Szechinski

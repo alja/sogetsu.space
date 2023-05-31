@@ -1,13 +1,13 @@
 ---
 title: "Construction With Cardboard"
-date: 2023-03-25
+date: 2023-04-25
 ---
 
 
 Casa Del Prado, Room 101, morning 10 am. Thursday, June 15th.
 
 # Theme
-Use Carboard and plant material
+Use Carboard and plant material to construct ikebana.
 
 
 # Fees 
