@@ -10,7 +10,7 @@ Sogetsu Ikebana can be arranged in any room of one’s home, in public spaces su
 
 Akane Teshigahara is the current and Fourth Iemoto (or headmaster), grand-daughter of Sofu Teshigahara, niece of Kasumi Teshigahara (2nd Iemoto) and daughter of Hiroshi Teshigahara (3rd Iemoto).
 
-See more info at [Japanese Headquarters](https://www.sogetsu.or.jp/e/)
+See more info at [Sogetsu Headquarters](https://www.sogetsu.or.jp/e/)
 
 
 ## Sogetsu San Diego branch
