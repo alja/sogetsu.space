@@ -1,12 +1,15 @@
 ---
-layout: archive
+layout: single
 title: Teachers
 permalink: /teachers/
 author_profile: true
+date: 2023-11-06
 ---
-Page under construction.<br>
 
-Please see <a href="https://www.ikebanasandiego.org/">IkebanaInternational San Diego</a> for more information. 
+Please see <a href="https://www.ikebanasandiego.org/teachers">Ikebana International San Diego</a> for the current teachers in San Diego.
+
+This branch is also hosting Shoka-Kai bimonthly classes given by Ms. Kika Shibata. More information at [Shoka Kai San Diego]({% link _pages/kika.md %}) 
+
 
 
 <!--

@@ -1,8 +1,9 @@
 ---
 permalink: /about/
-layout: splash
-date: 2021-01-13
+layout: single
 author_profile: false
+date: 2023-12-06
+last_modified_at: 2022-05-27T11:59:26-04:00
 ---
 ## Sogetsu School of Ikebana
 Sogetsu School was founded by Sofu Teshigahara in 1927. While many believed practicing Ikebana meant following the established form, he believed Ikebana is creative art that can take many forms and expressions. Anyone can enjoy Sogetsu Ikebana anytime, anywhere, using any material. Sogetsu Ikebana aim to be present, to be alive and to be flexible. Many beautiful flowers and plants are the products of Mother Nature but Ikebana is the product of man’s creativity and imagination in the arrangement.

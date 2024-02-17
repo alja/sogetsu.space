@@ -98,21 +98,18 @@ author:
   bio              : "A community of Sogetsu ikebana teachers and students in the city of San Diego"
   location         : "San Diego, CA"
   links:
-    - label: "Email"
+    - label: "Email Branch Director"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:yusorake@cox.net"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
+    - label: "Sogetsu Head Quoters Tokyo"
+      icon: #"fas fa-fw fa-envelope-square"
+      url: "https://www.sogetsu.or.jp/e/"
+    - label: "Sogetsu San Diego Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/San-Diego-Sogetsu-Branch-344288183282477"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Shoka Kai (Ms. Kika Shibata) classes"
+      icon: #"fas fa-fw fa-envelope-square"
+      url: "/kika/"
 
 # Site Footer
 footer:
@@ -221,7 +218,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: true
       share: false
       related: true
@@ -231,7 +228,7 @@ defaults:
       type: pages
     values:
       layout: single
-      read_time: false
+      read_time: true
       author_profile: true
   # _pets
   - scope:
@@ -320,7 +317,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: # true
       share: true
       related: true
