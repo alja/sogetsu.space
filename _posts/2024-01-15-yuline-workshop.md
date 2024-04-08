@@ -4,6 +4,7 @@ date: 2024-02-15
 gallery:
   - url: /assets/images/yumilines.jpg
     image_path: /assets/images/yumilines.jpg
+    title: "Arrangement by Yumi Rakers"
 ---
 
 
@@ -18,7 +19,7 @@ Fee: $10 for members, $15 for non-member
 Container: Any kind of vase
 
 
-{% include gallery  %}
+{% include gallery %}
 
 # Arrangements:
 [Google Photo Album](https://photos.app.goo.gl/XPzPhDc66BqHearN8)
