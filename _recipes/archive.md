@@ -1,14 +1,13 @@
 ---
-title: Shoka-Kai Archive
+title: "2024 Archive"
+date: 2025-01-18
+last_modified_at: 2024-01-16
 layout: single
-permalink: /kika-gallery/
-collection: kika-gallery
 author_profile: true
 entries_layout: single
 classes: wide
-date: 2023-12-16
-last_modified_at: 2024-05-16
 ---
+
 
 #### Sept 2024
 AM: Free Style Arrangement using Corn Husks

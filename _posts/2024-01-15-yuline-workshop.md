@@ -8,7 +8,7 @@ gallery:
 ---
 
 
-Casa Del Prado, Room 104, morning 10 am. Thursday, Febrary 15th.
+Casa Del Prado, Room 101, morning 10 am. Thursday, Febrary 15th.
 
 
 Theme: Emphasizing line, either straight, curved or mixed of both lines. Please remember, this theme can be applied with so many other themes. Please check book 3,4 and 5.

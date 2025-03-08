@@ -9,7 +9,7 @@ gallery:
 ---
 
 
-Casa Del Prado, Room 104, morning 10 am. Thursday, April 4th.
+Casa Del Prado, Room 101, morning 10 am. Thursday, April 4th.
 
   
 Theme: Composition of surfaces made by the massing of the lines, Text book 3-15 P42, 43

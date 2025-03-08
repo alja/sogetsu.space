@@ -7,7 +7,7 @@ author_profile: true
 entries_layout: single
 classes: wide
 date: 2023-12-24
-last_modified_at: 2024-06-16
+last_modified_at: 2025-01-09
 ---
 Shoka-kai San Diego was founded by Mrs. Shoka Narimatsu in 1998 to promote Sogetsu ikebana education and to nourish the creativity of advanced students who are training to become teachers. The name of the group derives from Mrs. Narimatsu's Sogetsu flower name, ''Shoka", is a beautiful pond flower, and the word "kai "means meaning “group" or "association". Mrs. Kika Shibata, Sogetsu North America West Coordinator, became an assistant to her mother and is now the president of Ikebana Shoka-Kai which has various branches in California.
 
@@ -28,7 +28,7 @@ Morning or Afternoon:  $45 + $5 <br>
 Morning & Afternoon:  $80 + $5 
  
 
-
+<!--
 ### Monday September 9th Workshop
 
 Place: Casa Del Prado Room 104
@@ -57,17 +57,10 @@ Materials: Bring flowers, branches, leaves as you wish.
 
 Vase: Moribana Container lager than 20 inches diameter. If you only have a smaller ones, bring two or three smaller moribana container.
 
+-->
 
-[Workshop Archive]({% link _pages/kika-gallery.md %})  &#x1F4F8;
+[Workshop Archive]({% link _pages/kika-gallery.md %}) 
 
-### Future dates
-<br> 2024 dates <br>
-<b>9/9/24 and 11/4/24 </b><!--, 7/8, 9/9 and 11/11/24.-->
-<!-- 1/13/25, 3/10, 5/12, 7/14, 9/8 and 11/10/25.-->
-<p>
-Note: November workshop has been moved from November 11th to November 4th due to overlap with Veteran's day
-<br>
-
-<br> 2025 dates <br>
+### 2025 dates
 <b>3/10, 5/12, 9/8, 11/10 </b>
 

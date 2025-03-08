@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "San Diego Sogetsu Branch"
+title                    : "Sogetsu School San Diego Branch"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "SanDiego Sogetsu"
@@ -104,12 +104,9 @@ author:
     - label: "Sogetsu Head Quoters Tokyo"
       icon: #"fas fa-fw fa-envelope-square"
       url: "https://www.sogetsu.or.jp/e/"
-    - label: "Sogetsu San Diego Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/San-Diego-Sogetsu-Branch-344288183282477"
     - label: "Shoka Kai (Ms. Kika Shibata) classes"
       icon: #"fas fa-fw fa-envelope-square"
-      url: "/kika/"
+      url: "/shoka/"
 
 # Site Footer
 footer:
@@ -198,6 +195,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  recipes:
+    output: true
+    sort: 2
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -230,6 +231,15 @@ defaults:
       layout: single
       read_time: true
       author_profile: true
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _pets
   - scope:
       path: ""
