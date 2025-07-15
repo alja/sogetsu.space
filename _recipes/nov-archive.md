@@ -25,15 +25,11 @@ Fees: $80 for both AM and PM sessions, $45 for each session. $5 for materials fe
 # Theme
 
 AM: Basic upright Moribana style using only mums, NO BRANCHES!
-
-        Bring Moribana vase (shallow), Kenzan, Mums. You can combine a few different     
-
-        kind of  mums for this arrangement.
+Bring Moribana vase (shallow), Kenzan, Mums. You can combine a few different kind of  mums for this arrangement.
 
 
 PM: Arrangement using any type of dried leaves. (Check text book 4-13, page 88-91 for only dried leaves)
-
-        Bring dried leaves, branches, and fresh flowers. Bring any kind container, kenzan if you need.
+Bring dried leaves, branches, and fresh flowers. Bring any kind container, kenzan if you need.
 
 
 {% include gallery %}

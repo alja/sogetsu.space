@@ -1,38 +1,43 @@
 ---
+title: "Program and Activities"
 layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_color: "sound_color"
+  overlay_image: /assets/images/zzz2.png
+  overlay_filter: "rgba(55, 180, 30, 0.5)"
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "Branch Workshops"
+      url: "/year-archive/"
+    - label: "35th anniversary"
+      url: "/assets/images/SogetsuFlyer2025.jpg"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.21.0">Latest release v4.21.0</a></small>
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
----
+    2025 Dates:<br>Bimonthly workshops: <b>4/17(R104), 6/26, 8/21, 10/16, 12/18</b><br> FlowerShow: <b>10/4 & 10/5</b><br>Shoka Kai: <b>5/12, 9/8, and 11/10</b>
 
-{% include feature_row %}
+intro: 
+  - excerpt: ' `"Flowers become human in ikebana."`Quote by Sofu Teshigahara.'
+feature_row:
+  - image_path: /assets/images/apr-yuso-25.png
+    title: "Finding Things Along The Way"
+    excerpt: "Arrangement by Yumi Rakers"
+    btn_label: "More Info"
+    url: "/workshop-apr-25/"
+feature_row2:
+  - image_path: /assets/images/frh.png
+    title: "Central Arrangement in Biannual Flower Show"
+    excerpt: "Arrangement by branch advisor Hiroko Szechinski"
+    btn_label: "More Info"
+    url: "/flower-show-2017/"
+feature_row4:
+  - image_path: /assets/images/group.png
+    title: "Group Arrangement with Sensei Kika Shibata"
+    excerpt: "2023 Flower Show in Balboa Park"
+    btn_label: "Shoka Kai Classes"
+    url: "/shoka/"
+---
+{% include feature_row id="intro" type="center" %}
+{% include feature_row id="feature_row" type="center" %}
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row4" type="center" %}

@@ -26,6 +26,6 @@ Morning or Afternoon:  $45 + $5 <br>
 Morning & Afternoon:  $80 + $5 
  
 
-### 2025 dates:
-<b>3/10, 5/12, 9/8, and 11/10 </b>
+### Future dates 2025:
+<b>5/12, 9/8, and 11/10 </b>
 

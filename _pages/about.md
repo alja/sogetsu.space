@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 layout: single
-author_profile: false
+author_profile: true
 date: 2025-02-20
 last_modified_at: 2025-02-21T11:59:26-04:00
 ---
@@ -16,7 +16,7 @@ See more info at [Sogetsu Headquarters](https://www.sogetsu.or.jp/e/)
 
 ## Sogetsu San Diego branch
 
-Mrs. Sumiko Lahey started her class in 1969, in 1985 she was authorized by headquarters to form a Study Group. In 1990, the Sogetsu San Diego Branch was established and Mrs. Lahey was appointed as its First Founding Director. In 1996, Mrs. Barbara E. Church succeeded Mrs. Lahey as Director and in 2000, Mr. Ronald Searfoss succeeded Mrs. Church. Mrs.Hiroko Szechinski, was elected in 2001 and served for 19 years. In 2020, Yumi Rakers was elected as a director and holds the current position.
+Mrs. Sumiko Lahey started her class in 1969, in 1985 she was authorized by headquarters to form a Study Group. In 1990, the Sogetsu San Diego Branch was established and Mrs. Lahey was appointed as its First Founding Director. In 1996, Mrs. Barbara E. Church succeeded Mrs. Lahey as Director and in 2000, Mr. Ronald Searfoss succeeded Mrs. Church. Mrs.Hiroko Szechinski, was elected in 2001 and served for 19 years. In 2020, [Yumi Rakers](https://yuso-yumi.sogetsu.space/) was elected as a director and holds the current position.
 
 #### Board Members
 
