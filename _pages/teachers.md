@@ -3,12 +3,37 @@ layout: single
 title: Teachers
 permalink: /teachers/
 author_profile: true
-date: 2023-11-06
+date: 2025-09-06
 ---
 
-Please see <a href="https://www.ikebanasandiego.org/teachers">Ikebana International San Diego</a> for the current teachers in San Diego.
 
-This branch is also hosting Shoka-Kai bimonthly classes given by Ms. Kika Shibata. More information at [Shoka Kai San Diego]({% link _pages/kika.md %}) 
+
+### Donna West
+
+Komon Degree<br>
+Location: Encinitas<br>
+dwest317@gmail.com<br>
+
+### Inge Johansen
+1st Somu Degree<br>
+Location: La Jolla<br>
+ingepj@gmail.com<br>
+
+
+### Yumi Rakers
+
+Jonin Somu Degree<br>
+Locations:
+* Japanese Friendship Garden & Museum
+* San Diego Music and Art Co
+* Clairemont
+
+yusorake@cox.net<br>
+
+## Special Hosts:
+
+The San Diego branch is hosting [Shoka-Kai](/shoka) classes 4 times a year given by Ms.Kika Shibata in Balboa Park . 
+
 
 
 

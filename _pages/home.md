@@ -10,20 +10,24 @@ header:
   actions:
     - label: "Branch Workshops"
       url: "/year-archive/"
-    - label: "35th anniversary"
+    - label: "35th Anniversary Flyer"
       url: "/assets/images/SogetsuFlyer2025.jpg"
 excerpt: >
-    2025 Dates:<br>Bimonthly workshops: <b>4/17(R104), 6/26, 8/21, 10/16, 12/18</b><br> FlowerShow: <b>10/4 & 10/5</b><br>Shoka Kai: <b>5/12, 9/8, and 11/10</b>
+    2025 Dates:<br>Bimonthly workshops: <b>4/17(R104), 6/26, 8/21, <del>10/16</del>, 12/18</b><br> FlowerShow: <b>10/4 & 10/5</b><br>Shoka Kai: <b>5/12, 9/8, and 11/10</b>
 
 intro: 
   - excerpt: ' `"Flowers become human in ikebana."`Quote by Sofu Teshigahara.'
 feature_row:
+  - image_path: /assets/images/SogetsuFlyer2025.jpg
+    title: "Flower Show 2025"
+   # url: "/workshop-apr-25/"
+feature_row2:
   - image_path: /assets/images/apr-yuso-25.png
     title: "Finding Things Along The Way"
     excerpt: "Arrangement by Yumi Rakers"
     btn_label: "More Info"
     url: "/workshop-apr-25/"
-feature_row2:
+feature_row3:
   - image_path: /assets/images/frh.png
     title: "Central Arrangement in Biannual Flower Show"
     excerpt: "Arrangement by branch advisor Hiroko Szechinski"
