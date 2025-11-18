@@ -10,8 +10,6 @@ header:
   actions:
     - label: "Branch Workshops"
       url: "/year-archive/"
-    - label: "35th Anniversary Flyer"
-      url: "/assets/images/SogetsuFlyer2025.jpg"
 excerpt: >
     2025 Dates:<br>Bimonthly workshops: <b>4/17(R104), 6/26, 8/21, <del>10/16</del>, 12/18</b><br> FlowerShow: <b>10/4 & 10/5</b><br>Shoka Kai: <b>5/12, 9/8, and 11/10</b>
 
@@ -20,7 +18,9 @@ intro:
 feature_row:
   - image_path: /assets/images/SogetsuFlyer2025.jpg
     title: "Flower Show 2025"
-   # url: "/workshop-apr-25/"
+    btn_label: "Exhibition Photo Album"
+    url: "https://photos.app.goo.gl/Mr75DR9nNk7HbUcW9"
+    #url: "/flower-show-25/"
 feature_row2:
   - image_path: /assets/images/apr-yuso-25.png
     title: "Finding Things Along The Way"

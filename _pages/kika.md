@@ -64,3 +64,7 @@ Vase: Moribana Container lager than 20 inches diameter. If you only have a small
 ### 2025 dates
 <b>3/10, 5/12, 9/8, 11/10 </b>
 
+
+###  2026 Workshop Dates:<br>
+March 9th, May 11th, September 14th, and November 9th
+
