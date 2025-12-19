@@ -11,7 +11,7 @@ header:
     - label: "Branch Workshops"
       url: "/year-archive/"
 excerpt: >
-    2025 Dates:<br>Bimonthly workshops: <b>4/17(R104), 6/26, 8/21, <del>10/16</del>, 12/18</b><br> FlowerShow: <b>10/4 & 10/5</b><br>Shoka Kai: <b>5/12, 9/8, and 11/10</b>
+    2025 Dates:<br>Bimonthly workshops: <b>4/17(R104), 6/26, 8/21, <del>10/16</del>, 12/18</b><br> FlowerShow: <b>10/4 & 10/5</b><br>Shoka Kai: <b>5/12, 9/8, and 11/10</b><br><br> 2026 Dates:<br>Bimonthly workshops: <b>2/19, 4/30, 6/18, 8/20 </b><br>Shoka Kai: <b>3/9, 5/11, 9/14, 11/9</b><br>
 
 intro: 
   - excerpt: ' `"Flowers become human in ikebana."`Quote by Sofu Teshigahara.'
