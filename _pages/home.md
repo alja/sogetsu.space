@@ -35,6 +35,13 @@ gallery:
     title: "Kika Shibata demonstration at Shoka Kai classes"
   
 ---
+
+<div>
+  <a href="/gallery/">
+    <strong>Events Photo Gallery</strong>
+  </a>
+</div>
+
 {% assign latest_post = site.posts | first %}
 {% assign event = latest_post.event %}
 {% if event %}

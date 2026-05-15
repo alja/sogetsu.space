@@ -14,9 +14,10 @@ Akane Teshigahara is the current and Fourth Iemoto (or headmaster), grand-daught
 See more info at [Sogetsu Headquarters](https://www.sogetsu.or.jp/e/)
 
 
-## Sogetsu San Diego branch
+## Sogetsu San Diego Branch
 
 Mrs. Sumiko Lahey started her class in 1969, in 1985 she was authorized by headquarters to form a Study Group. In 1990, the Sogetsu San Diego Branch was established and Mrs. Lahey was appointed as its First Founding Director. In 1996, Mrs. Barbara E. Church succeeded Mrs. Lahey as Director and in 2000, Mr. Ronald Searfoss succeeded Mrs. Church. Mrs.Hiroko Szechinski, was elected in 2001 and served for 19 years. In 2020, [Yumi Rakers](https://yuso-yumi.sogetsu.space/) was elected as a director and holds the current position.
+
 
 #### Board Members
 
@@ -27,3 +28,5 @@ Mrs. Sumiko Lahey started her class in 1969, in 1985 she was authorized by headq
 * Treasurer: Alja Mrak Tadel
 * Advisor: Hiroko Szechinski
 
+#### Sogetsu Overseas Regulation
+The Regulations are accessible with an online [PDF File](https://drive.google.com/file/d/1hEQWEPINTnJz40gmdOjAcp9m1qKTfriy/view?usp=sharing)
