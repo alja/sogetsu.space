@@ -1,0 +1,14 @@
+{% assign event = page.event %}
+
+{% if event %}
+
+  {% assign start_utc = event.start | date: "%Y%m%dT%H%M%SZ" %}
+  {% assign end_utc   = event.end   | date: "%Y%m%dT%H%M%SZ" %}
+
+  <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ event.title | uri_escape }}&dates={{ start_utc }}/{{ end_utc }}&details={{ event.description | uri_escape }}&location={{ event.location | uri_escape }}"
+     target="_blank"
+     class="btn btn--primary">
+    📅 Add to Google Calendar
+  </a>
+
+{% endif %}

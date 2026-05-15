@@ -10,19 +10,24 @@ date: 2025-09-06
 
 ### Donna West
 
-Komon Degree<br>
+Komon <br>
 Location: Encinitas<br>
 dwest317@gmail.com<br>
 
 ### Inge Johansen
-1st Somu Degree<br>
+1st Somu<br>
 Location: La Jolla<br>
 ingepj@gmail.com<br>
 
 
+### Sharon Bristow
+2nd Sanyo <br>
+Location: San Diego County<br>
+sharonfb121@gmail.com<br>
+
 ### Yumi Rakers
 
-Jonin Somu Degree<br>
+Jonin Somu<br>
 Locations:
 * Japanese Friendship Garden & Museum
 * San Diego Music and Art Co
