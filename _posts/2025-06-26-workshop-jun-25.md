@@ -28,6 +28,6 @@ General meeting for upcoming flower exhibition in October after lunch. If you pl
 
 {% include gallery caption="Example of using paper as unconventioanal arrangment" %}
 
-# Arrangements:
+## Arrangements:
 [Photo Album](https://drive.google.com/file/d/1WQknuuydFVrAOYzClfD490P9_uxuEhhY/view?usp=sharing)
 

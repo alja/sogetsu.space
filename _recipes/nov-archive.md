@@ -13,7 +13,7 @@ gallery:
 
 
 
-# Date: November 4th
+## Date: November 4th
 
 Time: 10:00 AM to 3:00 PM. Please be there 15 minutes before workshop starts. 
 
@@ -22,7 +22,7 @@ Place: Casa Del Prado, Room 104
 Fees: $80 for both AM and PM sessions, $45 for each session. $5 for materials fee.
 
 
-# Theme
+## Theme
 
 AM: Basic upright Moribana style using only mums, NO BRANCHES!
 Bring Moribana vase (shallow), Kenzan, Mums. You can combine a few different kind of  mums for this arrangement.
@@ -34,5 +34,5 @@ Bring dried leaves, branches, and fresh flowers. Bring any kind container, kenza
 
 {% include gallery %}
 
-# Arrangements:
+## Arrangements:
 [Google Photo Album](https://photos.app.goo.gl/Z5LP2RJbFgQFef6A8)

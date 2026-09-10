@@ -1,9 +1,9 @@
 ---
 title: Free Style Arrangement Emphasizing the Color of the Vase
 event:
-  title: "Free Style Arrangement Emphasizing the Color of the Vase "
-  start: 2026-04-30 18:00:00 -0800
-  end: 2026-04-30 22:00:00 -0800
+  title: "Free Style Arrangement Emphasizing the Color of the Vase"
+  start: 2026-04-30 10:00:00
+  end: 2026-04-30 13:00:00
   location: "San Diego, CA"
 date: 2026-03-30
 gallery:
@@ -16,7 +16,7 @@ Date: Thursday, April 30th
 
 Time: 10:00 AM to 1:00 PM
 
-# Theme: 
+## Theme: 
 Free-style arrangement emphasizing the color of the vase conducted by Jeff Fine.
 Check Text book 3-10(page 30-32)
 Bring your own vase, materials, and if you need a kenzan, please bring it.

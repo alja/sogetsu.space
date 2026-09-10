@@ -1,14 +1,58 @@
-{% assign event = page.event %}
+{%- comment -%}
+  Renders a "Add to Google Calendar" button for an event.
 
-{% if event %}
+  Usage:
+    {% include add-to-calendar.html %}                      uses page.event
+    {% include add-to-calendar.html event=some.event %}     uses a passed-in event
 
-  {% assign start_utc = event.start | date: "%Y%m%dT%H%M%SZ" %}
-  {% assign end_utc   = event.end   | date: "%Y%m%dT%H%M%SZ" %}
+  Event front matter:
+    event:
+      title:    "Ikebana Using a Transparent Container"
+      start:    2026-08-20 10:00:00     # local San Diego wall-clock time
+      end:      2026-08-20 13:00:00
+      location: "Casa Del Prado Room 101, Balboa Park, San Diego, CA"
+      all_day:  true                    # optional; omit for timed events
 
-  <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ event.title | uri_escape }}&dates={{ start_utc }}/{{ end_utc }}&details={{ event.description | uri_escape }}&location={{ event.location | uri_escape }}"
-     target="_blank"
-     class="btn btn--primary">
+  Google Calendar accepts a datetime either as a UTC instant (with a trailing
+  "Z") or as a local wall-clock time paired with an explicit ctz= timezone.
+  We use the latter: times are stored as local wall-clock and handed to Google
+  with the site timezone, so Google resolves PST vs PDT itself and the link
+  stays correct across daylight saving. (Emitting a local time with a "Z"
+  suffix would claim it was UTC and shift the event by 7-8 hours.)
+{%- endcomment -%}
+
+{%- if include.event -%}
+  {%- assign event = include.event -%}
+{%- else -%}
+  {%- assign event = page.event -%}
+{%- endif -%}
+
+{%- if event and event.start -%}
+  {%- if event.all_day -%}
+    {%- comment -%}
+      All-day events use date-only values, and Google treats the end date as
+      EXCLUSIVE, so we must emit the day after the event's last day.
+
+      Liquid has no date arithmetic, so we round-trip through a Unix timestamp.
+      Note the asymmetry: "%s" renders a date-only value as UTC midnight, but
+      re-formatting renders in site.timezone (UTC-7/-8), which pulls the result
+      back onto the original day. Adding a plain 86400 therefore does NOT
+      advance the date at all. Any offset from 32h to 54h lands correctly; 36h
+      sits safely in the middle and is verified to advance exactly one day
+      across both daylight saving transitions and across the year boundary.
+    {%- endcomment -%}
+    {%- assign cal_start = event.start | date: "%Y%m%d" -%}
+    {%- assign cal_end = event.end | default: event.start | date: "%s" | plus: 129600 | date: "%Y%m%d" -%}
+    {%- assign cal_tz = "" -%}
+  {%- else -%}
+    {%- assign cal_start = event.start | date: "%Y%m%dT%H%M%S" -%}
+    {%- assign cal_end = event.end | default: event.start | date: "%Y%m%dT%H%M%S" -%}
+    {%- capture cal_tz -%}&amp;ctz={{ site.timezone | uri_escape }}{%- endcapture -%}
+  {%- endif -%}
+
+  <a class="btn btn--primary"
+     href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text={{ event.title | uri_escape }}&amp;dates={{ cal_start }}/{{ cal_end }}{{ cal_tz }}&amp;details={{ event.description | uri_escape }}&amp;location={{ event.location | uri_escape }}"
+     target="_blank" rel="noopener noreferrer">
     📅 Add to Google Calendar
   </a>
-
-{% endif %}
+{%- endif -%}

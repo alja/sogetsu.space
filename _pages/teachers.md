@@ -1,62 +1,45 @@
 ---
-layout: single
 title: Teachers
+description: "Sogetsu ikebana teachers in San Diego County - their degrees, class locations and contact details."
 permalink: /teachers/
+layout: single
 author_profile: true
 date: 2025-09-06
+last_modified_at: 2026-09-10
 ---
 
+To join a class, contact any of our teachers directly.
 
+## Donna West
 
-### Donna West
-
-Komon <br>
+Komon<br>
 Location: Encinitas<br>
-dwest317@gmail.com<br>
+<dwest317@gmail.com>
 
-### Inge Johansen
+## Inge Johansen
+
 1st Somu<br>
 Location: La Jolla<br>
-ingepj@gmail.com<br>
+<ingepj@gmail.com>
 
+## Sharon Bristow
 
-### Sharon Bristow
-2nd Sanyo <br>
+2nd Sanyo<br>
 Location: San Diego County<br>
-sharonfb121@gmail.com<br>
+<sharonfb121@gmail.com>
 
-### Yumi Rakers
+## Yumi Rakers
 
 Jonin Somu<br>
 Locations:
+
 * Japanese Friendship Garden & Museum
 * San Diego Music and Art Co
 * Clairemont
 
-yusorake@cox.net<br>
+<yusorake@cox.net>
 
-## Special Hosts:
+## Special Hosts
 
-The San Diego branch is hosting [Shoka-Kai](/shoka) classes 4 times a year given by Ms.Kika Shibata in Balboa Park . 
-
-
-
-
-<!--
-## Hiroko Szechinski
-Riji Degree<br><br>
-For classes and detail information contact 619-341-2991 or hirokoszechinski@yahoo.com 
-
-## Yumi Rakers
-
-First Jonin Somu Degree <br>
-* Every Tuesday from 9:30 to 11:30 at Japanese Friendship Garden. Contact: 619-232-2721.
-<br>*The classes will resume in spring due to Covid.*
-
-* Private lesson at the San Diego Music and art Company. Contact: 858-774-6923
-		       
-* Each 4th Saturday of the month at 1:00 to 3:00 pm. Currently by Zoom. Contact at yusorake@cox.net or leave message at 858-774-1749.
-
-## Donna West
-First Jonin Somu Degree <br>
--->
+The San Diego branch hosts [Shoka-Kai](/shoka/) classes four times a year,
+given by Ms. Kika Shibata in Balboa Park.

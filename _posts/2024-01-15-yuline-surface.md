@@ -27,5 +27,5 @@ Mark your calendar for this year's rest of workshop; 6/20, 8/8 and 10/17.
 
 {% include gallery %}
 
-# Arrangements:
+## Arrangements:
 [Google Photo Album](https://photos.app.goo.gl/nUqiUp7taBnoG5XG8)

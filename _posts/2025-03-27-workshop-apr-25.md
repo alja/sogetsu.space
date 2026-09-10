@@ -7,7 +7,7 @@ gallery:
     title: "Arrangement by Yumi Rakers"
 ---
 
-# Theme:
+## Theme:
 Free style arrangement using materials you collect from roadside, field, side work, beaches and anything from outside but not from your garden or others garden.
 Bring own materials. If you are going to use a vase and kenzan, please bring them.
 It will be challenged but will be fun! 
@@ -15,10 +15,10 @@ It will be challenged but will be fun!
 Please bring some foods to share with others.
 After lunch, we have a short meeting.
 
-# Fees: 
+## Fees: 
 $10 for members, $15 for non members
 
 {% include gallery %}
 
-# Arrangements:
+## Arrangements:
 [Photo Album](https://drive.google.com/file/d/1ualBEIhHUQWmi17VsdynrYiNAYzl-upg/view?usp=sharing)

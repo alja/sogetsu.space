@@ -2,9 +2,9 @@
 title: "Arrangement using horsetail"
 event:
   title: "Arrangement using horsetail"
-  start: 2026-02-19 18:00:00 -0800
-  end: 2026-02-19 22:00:00 -0800
-  location: "San Diego, CA"
+  start: 2026-02-19 10:00:00
+  end: 2026-02-19 13:00:00
+  location: "Casa Del Prado Room 101, Balboa Park, San Diego, CA"
 date: 2026-02-19
 gallery:
   - url: /assets/images/horsetail2.png

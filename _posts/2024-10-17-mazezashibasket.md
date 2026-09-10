@@ -22,5 +22,5 @@ Bring food to share.
 
 {% include gallery %}
 
-# Arrangements:
+## Arrangements:
 [Google Photo Album](https://photos.app.goo.gl/Mdc149fCZRQnekYG9)

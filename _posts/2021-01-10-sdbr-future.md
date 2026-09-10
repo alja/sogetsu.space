@@ -4,7 +4,7 @@ date: 2021-02-15
 gallery:
   - url: /assets/images/hirokoFeb.jpg
     image_path: /assets/images/hirokoFeb.jpg
-    alt: "placeimage 2"
+    alt: "Free style arrangement with kiwi vines by Hiroko Szechinski"
 ---
 
 

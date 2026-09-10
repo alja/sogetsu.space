@@ -21,5 +21,5 @@ Container: Any kind of vase
 
 {% include gallery %}
 
-# Arrangements:
+## Arrangements:
 [Google Photo Album](https://photos.app.goo.gl/XPzPhDc66BqHearN8)
