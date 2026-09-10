@@ -1,6 +1,7 @@
 ---
 title: "2024 Archive"
 date: 2025-01-18
+event_date: 2024-09-01
 last_modified_at: 2024-01-16
 layout: single
 author_profile: true

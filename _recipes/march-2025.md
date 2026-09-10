@@ -1,6 +1,7 @@
 ---
 title: "2025 March: Paper Tape Basket"
 date: 2023-01-16
+event_date: 2025-03-10
 last_modified_at: 2025-03-12
 layout: single
 entries_layout: single

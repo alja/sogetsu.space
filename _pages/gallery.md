@@ -23,75 +23,94 @@ exclude_images:
 
 {%- comment -%}
   Posts and recipes are the two collections that describe events.
+
+  Ordering: newest event first. Posts carry a real `date`, but recipes use
+  `date` as a hand-tuned sort key for the /shoka/ listing (it runs backwards
+  relative to real time), so each recipe declares a true `event_date`. We sort
+  on `event_date` where present and fall back to `date`.
+
+  Liquid cannot sort an array on a computed fallback, so we build one
+  "YYYYMMDD~<index>" string per document, sort those, and use the trailing
+  index to get back to the document.
 {%- endcomment -%}
 {%- assign event_docs = site.posts | concat: site.recipes -%}
+
+{%- assign order_rows = '' -%}
+{%- for doc in event_docs -%}
+  {%- assign doc_date = doc.event_date | default: doc.date -%}
+  {%- capture order_rows -%}{{ order_rows }}{{ doc_date | date: "%Y%m%d" }}~{{ forloop.index0 }},{%- endcapture -%}
+{%- endfor -%}
+{%- assign ordered = order_rows | split: ',' | sort | reverse -%}
+
 {%- assign all_images = site.static_files | where_exp: 'f', 'f.path contains "/assets/images/"' -%}
 
 <div class="gallery-container">
   <div class="gallery-grid">
-    {%- for file in all_images -%}
-      {%- assign ext = file.extname | remove_first: '.' | downcase -%}
-      {%- assign rel = file.path | remove_first: '/assets/images/' -%}
+    {%- comment -%}
+      `shown` records which images have already been placed, so a photo used by
+      two events appears once, under the newer one.
+    {%- endcomment -%}
+    {%- assign shown = '' -%}
 
-      {%- comment -%} Photos only, and only files directly in /assets/images/. {%- endcomment -%}
-      {%- if ext == 'jpg' or ext == 'jpeg' or ext == 'png' -%}
-      {%- unless rel contains '/' -%}
-      {%- unless page.exclude_images contains file.name -%}
+    {%- for row in ordered -%}
+      {%- assign doc_index = row | split: '~' | last | plus: 0 -%}
+      {%- assign doc = event_docs[doc_index] -%}
+      {%- assign doc_date = doc.event_date | default: doc.date -%}
 
-        {%- comment -%}
-          Match on the path minus its leading slash ("assets/images/foo.jpg") so
-          that references written with or without a leading slash both hit, while
-          a bare filename cannot collide with a longer one (e.g. "so.jpg" must
-          not match "also.jpg").
+      {%- for file in all_images -%}
+        {%- assign ext = file.extname | remove_first: '.' | downcase -%}
+        {%- assign rel = file.path | remove_first: '/assets/images/' -%}
 
-          Two ways a document can reference an image, and we check both because
-          Jekyll's render order is not guaranteed:
-            - front matter `gallery:` / `gallery2:` entries
-            - anywhere in the rendered body (inline <img>, markdown image, or
-              the output of an {% include gallery %})
-        {%- endcomment -%}
-        {%- assign needle = file.path | remove_first: '/' -%}
-        {%- assign links = '' -%}
-        {%- assign first_title = '' -%}
+        {%- comment -%} Photos only, and only files directly in /assets/images/. {%- endcomment -%}
+        {%- if ext == 'jpg' or ext == 'jpeg' or ext == 'png' -%}
+        {%- unless rel contains '/' -%}
+        {%- unless page.exclude_images contains file.name -%}
 
-        {%- for doc in event_docs -%}
-          {%- assign hit = false -%}
-          {%- for g in doc.gallery -%}
-            {%- if g.image_path contains needle or g.url contains needle -%}{%- assign hit = true -%}{%- endif -%}
-          {%- endfor -%}
-          {%- for g in doc.gallery2 -%}
-            {%- if g.image_path contains needle or g.url contains needle -%}{%- assign hit = true -%}{%- endif -%}
-          {%- endfor -%}
-          {%- if doc.content contains needle -%}{%- assign hit = true -%}{%- endif -%}
+          {%- capture marker -%}|{{ file.path }}|{%- endcapture -%}
+          {%- unless shown contains marker -%}
 
-          {%- if hit -%}
-            {%- if first_title == '' -%}{%- assign first_title = doc.title -%}{%- endif -%}
-            {%- capture links -%}
-              {{ links }}
-              <a class="gallery-item-event" href="{{ doc.url | relative_url }}">{{ doc.title }}{%- if doc.date %} <span class="gallery-item-date">{{ doc.date | date: "%b %Y" }}</span>{% endif -%}</a>
-            {%- endcapture -%}
-          {%- endif -%}
-        {%- endfor -%}
+            {%- comment -%}
+              Match on the path minus its leading slash ("assets/images/foo.jpg")
+              so references written with or without a leading slash both hit,
+              while a bare filename cannot collide with a longer one (e.g.
+              "so.jpg" must not match "also.jpg").
 
-        {%- comment -%}
-          No referencing post or recipe means this image is not part of any
-          event, so it is left out of the gallery entirely.
-        {%- endcomment -%}
-        {%- if links != '' -%}
-          <figure class="gallery-item">
-            <a href="{{ file.path | relative_url }}" class="gallery-link"
-               aria-label="Enlarge photo: {{ first_title | escape }}">
-              <img src="{{ file.path | relative_url }}"
-                   alt="{{ first_title | escape }}"
-                   loading="lazy" decoding="async" />
-            </a>
-            <figcaption class="gallery-item-caption">{{ links }}</figcaption>
-          </figure>
+              Two ways a document can reference an image, and we check both
+              because Jekyll's render order is not guaranteed:
+                - front matter `gallery:` / `gallery2:` entries
+                - anywhere in the rendered body (inline <img>, markdown image,
+                  or the output of an {% include gallery %})
+            {%- endcomment -%}
+            {%- assign needle = file.path | remove_first: '/' -%}
+            {%- assign hit = false -%}
+            {%- for g in doc.gallery -%}
+              {%- if g.image_path contains needle or g.url contains needle -%}{%- assign hit = true -%}{%- endif -%}
+            {%- endfor -%}
+            {%- for g in doc.gallery2 -%}
+              {%- if g.image_path contains needle or g.url contains needle -%}{%- assign hit = true -%}{%- endif -%}
+            {%- endfor -%}
+            {%- if doc.content contains needle -%}{%- assign hit = true -%}{%- endif -%}
+
+            {%- if hit -%}
+              {%- capture shown -%}{{ shown }}{{ marker }}{%- endcapture -%}
+              <figure class="gallery-item">
+                <a href="{{ file.path | relative_url }}" class="gallery-link"
+                   aria-label="Enlarge photo: {{ doc.title | escape }}">
+                  <img src="{{ file.path | relative_url }}"
+                       alt="{{ doc.title | escape }}"
+                       loading="lazy" decoding="async" />
+                </a>
+                <figcaption class="gallery-item-caption">
+                  <a class="gallery-item-event" href="{{ doc.url | relative_url }}">{{ doc.title }}{%- if doc_date %} <span class="gallery-item-date">{{ doc_date | date: "%b %Y" }}</span>{% endif -%}</a>
+                </figcaption>
+              </figure>
+            {%- endif -%}
+
+          {%- endunless -%}
+        {%- endunless -%}
+        {%- endunless -%}
         {%- endif -%}
-
-      {%- endunless -%}
-      {%- endunless -%}
-      {%- endif -%}
+      {%- endfor -%}
     {%- endfor -%}
   </div>
 </div>
