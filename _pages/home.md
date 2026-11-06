@@ -56,5 +56,5 @@ gallery:
   {% include add-to-calendar.html event=event %}
 </div>
 {% endif %}
-{% include gallery %}
+{% include gallery loading="eager" %}
 {% include feature_row id="feature_row" type="center" %}

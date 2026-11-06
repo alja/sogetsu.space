@@ -23,12 +23,12 @@
         {% if img.title %}title="{{ img.title }}"{% endif %}>
           <img src="{{ img.image_path | relative_url }}"
                alt="{{ img.alt | default: img.title }}"
-               loading="lazy" decoding="async">
+               loading="{{ include.loading | default: "lazy" }}" decoding="async">
       </a>
     {% else %}
       <img src="{{ img.image_path | relative_url }}"
            alt="{{ img.alt | default: img.title }}"
-           loading="lazy" decoding="async">
+           loading="{{ include.loading | default: "lazy" }}" decoding="async">
     {% endif %}
   {% endfor %}
   {% if include.caption %}
